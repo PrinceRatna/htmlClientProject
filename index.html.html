@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .grid-container {
+          display: grid;
+          grid-template-columns: auto auto auto ;
+          gap: 5px;
+          /* background-color: #2196F3; */
+          padding: 10px;
+          
+        }
+        
+        .grid-container > div {
+          background-color: rgba(255, 255, 255, 0.8);
+          text-align: center;
+          padding: 20px 0;
+          font-size: 30px;
+        }
+        
+        .item1 {
+          grid-row: 1 / 4;
+        }
+        </style>
+
+
+  </head>
+  <body style="padding: 15px;">
+    <div id="main" style="padding: 15px;">
+      <div id="header">
+        <div style="font-weight: bold; font-size: 32px; color: #000;margin:10px 0px 30px 0px">Sales leaderboard for:</div>
+        <select>
+          <option value="today">Today</option>
+          <option value="today">This week</option>
+          <option value="today">This Month</option>
+        </select>
+
+
+        <section class="top-container">
+          <div>
+           <span>Abdullah Hadley</span>  <br> <br>
+            <img src="https://randomuser.me/api/portraits/men/4.jpg">
+          <span style="padding:5px;font-size:15px;">122 closed deals</span>   <br>
+            
+                <a href="#">View profile</a>
+                <a href="#">Message</a>
+
+           
+          </div>
+          <div>
+            <span>Renee Sims</span>
+             <br>
+             <br>
+            <img src="https://randomuser.me/api/portraits/women/4.jpg">
+            <span style="padding:5px;font-size:15px;">102 closed deals</span>
+             <br>
+            
+               <a href="#">View profile</a>
+               <a href="#">Message</a> 
+                
+                
+            
+            
+          </div>
+          <div>
+            <span> Carys Metz</span>
+            <br>
+            <br>
+            <img src="https://randomuser.me/api/portraits/women/6.jpg">
+            <span style="padding:5px;font-size:15px;">90 closed deals</span>
+            <br>
+            
+                <a href="#">View profile</a>
+                
+                <a href="#">Message</a>
+        
+           
+          </div>
+        </section>
+
+
+      </div>
+      <h2 style="margin:50px 0px 30px 0px">Sales team:</h2>
+      <table style="width:100%">
+        <tr>
+          <td style="">
+            <div class="img-name-container">
+            <img src="https://randomuser.me/api/portraits/men/4.jpg">
+            <div>            Abdullah Hadley
+            </div>
+            </div>
+          </td>
+          <td style="">
+            122 closed deals
+          </td>
+          <td style="">
+            <a href="#">View profile</a>
+            <a href="#">Message</a>
+          </td>
+        </tr>
+        <tr>
+          <td style="">
+            <div class="img-name-container">
+            <img src="https://randomuser.me/api/portraits/women/4.jpg">
+            <div>Renee Sims</div>
+            </div>
+          </td>
+          <td style="">
+            102 closed deals
+          </td>
+          <td style="">
+            <a href="#">View profile</a>
+            <a href="#">Message</a>
+          </td>
+        </tr>
+        <tr>
+          <td style="">
+            <div class="img-name-container">
+            <img src="https://randomuser.me/api/portraits/women/6.jpg">
+           <div> Carys Metz</div>
+           </div>
+          </td>
+          <td style="">
+            90 closed deals
+          </td>
+          <td style="">
+            <a href="#">View profile</a>
+            <a href="#">Message</a>
+          </td>
+        </tr>
+        <tr>
+          <td style="">
+            <div class="img-name-container">
+            <img src="https://randomuser.me/api/portraits/men/6.jpg">
+            <div>Eduard Franz</div>
+            </div>
+          </td>
+          <td style="">
+            89 closed deals
+          </td>
+          <td style="">
+            <a href="#">View profile</a>
+            <a href="#">Message</a>
+          </td>
+        </tr>
+        <tr>
+          <td style="">
+            
+            <div class="img-name-container">
+            <img src="https://randomuser.me/api/portraits/men/7.jpg">
+            <div>Alexis Doreau</div>
+            </div>
+          </td>
+          <td style="">
+            88 closed deals
+          </td>
+          <td style="">
+            <a href="#">View profile</a>
+            <a href="#">Message</a>
+          </td>
+        </tr>
+        <tr>
+          <td style="">
+            <div class="img-name-container">
+            <img src="https://randomuser.me/api/portraits/women/8.jpg">
+            <div>Mia Denys</div>
+            </div>
+          </td>
+          <td style="">
+            85 closed deals
+          </td>
+          <td style="">
+            <a href="#">View profile</a>
+            <a href="#">Message</a>
+          </td>
+        </tr>
+        <tr>
+          <td style="">
+            <div class="img-name-container">
+            <img src="https://randomuser.me/api/portraits/women/10.jpg">
+            <div>Lourdes Browning</div>
+            </div>
+          </td>
+          <td style="">
+            80 closed deals
+          </td>
+          <td style="">
+            <a href="#">View profile</a>
+            <a href="#">Message</a>
+          </td>
+        </tr>
+        <tr>
+          <td style="">
+            <div class="img-name-container">
+            <img src="https://randomuser.me/api/portraits/men/8.jpg">
+            <div>Zachary Albright</div>
+            </div>
+          </td>
+          <td style="">
+            79 closed deals
+          </td>
+          <td style="">
+            <a href="#">View profile</a>
+            <a href="#">Message</a>
+          </td>
+        </tr>
+        <tr>
+          <td style="">
+            <div class="img-name-container">
+            <img src="https://randomuser.me/api/portraits/men/9.jpg">
+            <div>Tim Schoch</div>
+            </div>
+          </td>
+          <td style="">
+            78 closed deals
+          </td>
+          <td style="">
+            <a href="#">View profile</a>
+            <a href="#">Message</a>
+          </td>
+        </tr>
+        <tr>
+          <td style="">
+            <div class="img-name-container">
+            <img src="https://randomuser.me/api/portraits/men/10.jpg">
+            <div>Oscar Thomsen</div>
+            </div>
+          </td>
+          <td style="">
+            75 closed deals
+          </td>
+          <td style="">
+            <a href="#">View profile</a>
+            <a href="#">Message</a>
+          </td>
+        </tr>
+        <tr>
+          <td style="">
+            <div class="img-name-container">
+            <img src="https://randomuser.me/api/portraits/women/11.jpg">
+          <div>Vivianna Kiser</div> 
+          </div> 
+          </td>
+          <td style="">
+            70 closed deals
+          </td>
+          <td style="">
+            <a href="#">View profile</a>
+            <a href="#">Message</a>
+          </td>
+        </tr>
+        <tr>
+          <td style="">
+            <div class="img-name-container">
+            <img src="https://randomuser.me/api/portraits/women/12.jpg">
+           <div>Elena Satine</div> 
+           </div>
+          </td>
+          <td style="">
+            64 closed deals
+          </td>
+          <td style="">
+            <a href="#">View profile</a>
+            <a href="#">Message</a>
+          </td>
+        </tr>
+        <tr>
+          <td style="">
+            <div class="img-name-container">
+            <img src="https://randomuser.me/api/portraits/men/12.jpg">
+           <div> Elliot Nolten</div>
+           </div>
+          </td>
+          <td style="">
+            60 closed deals
+          </td>
+          <td style="">
+            <a href="#">View profile</a>
+            <a href="#">Message</a>
+          </td>
+        </tr>
+        <tr>
+          <td style="">
+            <div class="img-name-container">
+            <img src="https://randomuser.me/api/portraits/women/13.jpg">
+            <div>Daniela Dewitt</div>
+            </div>
+          </td>
+          <td style="">
+            58 closed deals
+          </td>
+          <td style="">
+            <a href="#">View profile</a>
+            <a href="#">Message</a>
+          </td>
+        </tr>
+        <tr>
+          <td style="">
+            <div class="img-name-container">
+            <img src="https://randomuser.me/api/portraits/women/14.jpg">
+           <div>hloe Sirko</div> 
+           </div>
+          </td>
+          <td style="">
+            55 closed deals
+          </td>
+          <td style="">
+            <a href="#">View profile</a>
+            <a href="#">Message</a>
+          </td>
+        </tr>
+        <tr>
+          <td style=""><div class="img-name-container">
+            <img src="https://randomuser.me/api/portraits/men/16.jpg">
+           <div>Kaine Hudson</div> 
+           </div>
+
+          </td>
+          <td style="">
+            50 closed deals
+          </td>
+          <td style="">
+            <a href="#">View profile</a>
+            <a href="#">Message</a>
+          </td>
+        </tr>
+        <tr>
+          <td style="">
+            <div class="img-name-container">
+            <img src="https://randomuser.me/api/portraits/men/21.jpg">
+           <div>Stephane Moreau</div> 
+           </div>
+          </td>
+          <td style="">
+            40 closed deals
+          </td>
+          <td style="">
+            <a href="#">View profile</a>
+            <a href="#">Message</a>
+          </td>
+        </tr>
+        <tr>
+          <td style="">
+            <div class="img-name-container">
+            <img src="https://randomuser.me/api/portraits/men/29.jpg">
+           <div>Kelly Williams</div> 
+           </div>
+          </td>
+          <td style="">
+            35 closed deals
+          </td>
+          <td style="">
+            <a href="#">View profile</a>
+            <a href="#">Message</a>
+          </td>
+        </tr>
+</table>
+
+
+
+
+
+      <div class="bottom-container">
+        <div style="width:35% ;height:100%;background-color:rgb(233, 232, 232)">
+            <div style="text-align: center; height: 300px;">
+                <h2 style="color:#030235">Overview</h2>
+                <ul>
+                  <li>
+                    <strong>345</strong> <br>
+                    deals
+                  </li>
+                  <li>
+                  <li>
+                    <strong>Current Value</strong> <br>
+                    $100,345
+                  </li>
+                </ul>
+            </div>
+       
+        </div>
+
+        <div >
+        <h1>Feed</h1>
+        <p>
+          <span style="font-weight: bolder; margin-right: 5px;">Remember: Always be closing</span>
+          <span style="font-size: 20px;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+          
+        </p>
+        <div class="grid-container">
+          <div class="item2">
+              <img src="https://randomuser.me/api/portraits/women/1.jpg">
+              <span>Miyah Myles <br>
+                Made a sale.</span>
+          </div>
+          <div class="item3">
+              <img src="https://randomuser.me/api/portraits/men/1.jpg">
+
+              <span>leo gill <br>
+                Made a sale.</span>
+              
+          </div>
+          <div class="item4">
+              <img src="https://randomuser.me/api/portraits/men/2.jpg">
+              <span>Joseph Jones <br>
+                Made a sale.</span>
+              
+          </div>
+          <div class="item5">
+              <img src="https://randomuser.me/api/portraits/women/2.jpg">
+             <span> Miyah Myles <br>
+                Made a sale.</span>
+          </div>
+          <div class="item6">
+              <img src="https://randomuser.me/api/portraits/women/3.jpg">
+              <span>Sarah Cummings <br>
+                Added a new lead.</span>
+              
+          </div>
+          <div class="item7">
+              <img src="https://randomuser.me/api/portraits/men/3.jpg">
+              <span> Wyatt Morris <br>
+                Added a new lead.</span>
+              
+          </div>
+                
+
+         
+            
+          </div>
+
+        
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
